@@ -4,7 +4,7 @@
           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
           xmlns:local="clr-namespace:WpfMaterialDesignButtons"
           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-          Title="MainWindow" Width="800" Height="450" mc:Ignorable="d">
+          Title="MainWindow" Width="400" Height="450" mc:Ignorable="d">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -29,15 +29,15 @@
             <Border x:Name="bd1" Background="Transparent" BorderBrush="Black" BorderThickness="0" CornerRadius="0">
                 <Button Name="CreateButton" Background="Transparent" BorderBrush="{x:Null}" Click="CreateButton_Click" Style="{StaticResource LukasButtonStyle}">
                     <DockPanel>
-                        <!--<Image Width="24" DockPanel.Dock="Left" Source="Resources/call-24px.png" />-->
+                        <Image Width="24" DockPanel.Dock="Left" Source="Resources/call-24px.png" />
                         <Label Name="choosenLabel" Content="DIAL" DockPanel.Dock="Left" FontSize="14" FontWeight="SemiBold" Foreground="#FFFFFF" />
                     </DockPanel>
                 </Button>
             </Border>
             <Border x:Name="bd2" BorderBrush="Black" BorderThickness="0" CornerRadius="0">
                 <Grid>
-                    <Button HorizontalAlignment="Left" VerticalAlignment="Stretch" Background="Transparent" BorderBrush="{x:Null}" Click="AddButtonContextMenu_Click1" ContextMenuService.IsEnabled="False">
-                        <!--<Image Width="24" VerticalAlignment="Center" Source="Resources/more_vert-24px.png" />-->
+                    <Button HorizontalAlignment="Left" VerticalAlignment="Stretch" Background="Transparent" BorderBrush="{x:Null}" Click="AddButtonContextMenu_Click1" ContextMenuService.IsEnabled="False" Style="{StaticResource LukasButtonStyle}">
+                        <Image Width="24" VerticalAlignment="Center" Source="Resources/more_vert-24px.png" />
 
                     </Button>
                     <Popup x:Name="btnPopupChoices">
