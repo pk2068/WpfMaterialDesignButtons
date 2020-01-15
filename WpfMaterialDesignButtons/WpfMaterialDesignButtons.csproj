@@ -106,5 +106,17 @@
     <Resource Include="Resources\more_vert-24px.png" />
     <Resource Include="Resources\search-24px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\call_end-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\call_end-24px_copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\call_end-24px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\call_end-24pxNat2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
